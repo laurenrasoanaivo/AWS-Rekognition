@@ -1,0 +1,12 @@
+.generalItemInfo {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+}
+.generalItemInfo > .generalType{
+    font-weight: 600;
+    flex-basis: 80%;
+}
+.generalItemInfo > .generalConfidence{
+    flex-basis: 20%;
+}

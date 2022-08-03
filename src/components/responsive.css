@@ -1,0 +1,23 @@
+
+@media only screen and (max-width: 730px) and (min-width: 501) {
+    .container{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .container{
+        flex-direction: column;
+    }
+    .container > #imgUp{
+        margin: 0%;
+    }
+    .container > .infoContent{
+        border: none;
+        margin: 0%;
+        background-color: rgba(222, 222, 222, 0.404);
+        width: 100%;
+    }
+    .container > .infoContent > .faceDetails{
+        flex-direction: column;
+    }
+}

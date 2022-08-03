@@ -1,0 +1,18 @@
+.itemInfo {
+    background-color: #7fc3c0;
+    width: 200px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    margin: 1%;
+}
+.itemInfo > .item{
+    color: white;
+    flex-basis: 80%;
+    line-height: 40px;
+}
+.itemInfo > .confidence{
+    flex-basis: 20%;
+}

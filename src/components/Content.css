@@ -1,0 +1,128 @@
+.form-input{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-input > form input{
+    display: none;
+}
+.form-input > form label{
+    border: 2px solid #cfb845;
+    border-radius: 5px;
+    height: 45px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #cfb845;
+    color: white;
+    line-height: 50px;
+    padding: 3px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.container > #imgUp{
+    flex-basis: 30%;
+    margin: 2%;
+    margin-right: 0%;
+    border: 2px solid #7fc3c0;
+    border-radius: 20px;
+    height: 60vh;
+    background-color: rgba(222, 222, 222, 0.404);
+    width: 100%;
+}
+.container > #imgUp > p{
+    text-align: center;
+    font-size: 3vh;
+    line-height: 49vh;
+}
+.container > #imgUp > img{
+    width: 100%;
+    border-radius: 20px;
+}
+.container > .infoContent{
+    flex-basis: 70%;
+    border: 2px solid #7fc3c0;
+    margin: 2%;
+    border-radius: 20px;
+    background-color: rgba(222, 222, 222, 0.404);
+    width: 100%;
+}
+.container > .infoContent > h2{
+    text-align: center;
+    color: #cfb845;
+}
+.container > .infoContent > .faceDetails{
+    display: flex;
+    flex-direction: row;
+}
+.container > .infoContent > .faceDetails > .detailInfo{
+    flex-basis: 40%;
+}
+.container > .infoContent > .faceDetails > .detailInfo > li{
+    list-style: none;
+    margin: 20px;
+}
+.container > .infoContent > .faceDetails > .generalInfo{
+    flex-basis: 60%;
+}
+.container > .infoContent > .faceDetails > .generalInfo > ul{
+    padding: 1%;
+    margin: 1%;
+}
+.dropbtn {
+    background-color: #7fc3c0;
+    width: 210px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    margin: 1%;
+    cursor: pointer;
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+    line-height: 40px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content li {
+    width: auto;
+    display: block;
+    list-style: none;
+    padding: 6px 8px;
+    font-size: small;
+    font-weight: 600;
+    line-height: 40px;
+  }
+  
+  /* Change color of dropdown links on hover */
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #7fc3c0c2;
+  }
